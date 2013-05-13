@@ -254,8 +254,6 @@ Sheets wird an die Funktion modify-sheet weitergegeben."
                                 :cell-styles cell-styles]
                                args)))
 
-
-
 (defn add? [& args]
   (mo/operation mo/add? args))
 
